@@ -1,0 +1,19 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 300px;
+    gap: 14px;
+    background-repeat: none;
+    background-position: center;
+    background-size: 100%;
+
+    &__title {
+        font-size: 48px;
+    }
+}
+
+.services {
+    background-image: url(../images/services.webp);
+}

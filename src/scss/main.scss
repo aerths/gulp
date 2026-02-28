@@ -2,6 +2,7 @@
 @use 'utils/variables';
 
 // ==== 2. Base styles ====
+
 @use 'base/reset';
 @use 'base/typography';
 @use 'base/layout';
@@ -12,16 +13,18 @@
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/button1';
-@use 'components/card';
 @use 'components/header';
 @use 'components/heroblok';
 @use 'components/sponsor';
-@use 'components/our_services';
+@use 'components/services';
+@use 'components/banner';
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: white;
+  font-size: 18px;
 }
 
 body {
@@ -83,4 +86,8 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-display: swap;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
 }
