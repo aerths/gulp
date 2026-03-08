@@ -1,0 +1,102 @@
+// /* Основные стили контейнера */
+// .faq-container {
+//   max-width: 800px;
+//   margin: 2rem auto;
+//   font-family: sans-serif;
+// }
+
+// /* Стили одного элемента аккордеона */
+// .faq-item {
+//   border: var(--border);
+//   border-radius: 8px;
+//   margin-bottom: 1rem;
+//   background: #fff;
+//   overflow: hidden;
+// }
+
+// /* Скрываем стандартный чекбокс */
+// .faq-checkbox {
+//   display: none;
+// }
+
+// /* Заголовок блока: номер, вопрос и кнопка-плюс */
+// .faq-header {
+//   display: flex;
+//   align-items: center;
+//   padding: 1rem;
+//   background: #f7f7f7;
+//   cursor: pointer;
+//   user-select: none;
+// }
+
+// .faq-number {
+//   font-weight: bold;
+//   color: #666;
+//   margin-right: 1rem;
+//   min-width: 2rem;
+// }
+
+// .faq-question {
+//   flex: 1;
+//   font-weight: 600;
+// }
+
+// /* Кнопка-переключатель (плюс/минус) */
+// .faq-toggle {
+//   display: inline-block;
+//   width: 24px;
+//   height: 24px;
+//   position: relative;
+//   cursor: pointer;
+// }
+
+// /* Псевдоэлементы для создания крестика (плюс) */
+// .faq-toggle::before,
+// .faq-toggle::after {
+//   content: '';
+//   position: absolute;
+//   background-color: #333;
+//   transition: transform 0.3s ease;
+// }
+
+// /* Горизонтальная линия */
+// .faq-toggle::before {
+//   width: 16px;
+//   height: 2px;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// /* Вертикальная линия (изначально есть — это плюс) */
+// .faq-toggle::after {
+//   width: 2px;
+//   height: 16px;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// /* При открытом чекбоксе убираем вертикальную линию → получается минус */
+// .faq-checkbox:checked + .faq-header .faq-toggle::after {
+//   transform: translate(-50%, -50%) scale(0);
+// }
+
+// /* Блок с ответом (изначально скрыт) */
+// .faq-answer {
+//   max-height: 0;
+//   padding: 0 1rem;
+//   background: #fff;
+//   overflow: hidden;
+//   transition: max-height 0.4s ease-out, padding 0.3s ease;
+//   color: #444;
+//   line-height: 1.5;
+//   border-top: 0 solid transparent;
+// }
+
+// /* При открытом чекбоксе показываем ответ */
+// .faq-checkbox:checked ~ .faq-answer {
+//   max-height: 300px;  /* достаточно большое значение, чтобы вместить контент */
+//   padding: 1rem;
+//   border-top-color: #eee;
+// }

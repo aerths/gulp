@@ -19,6 +19,7 @@
 @use 'components/services';
 @use 'components/banner';
 @use 'components/website';
+@use 'components/question';
 
 * {
   box-sizing: border-box;
@@ -55,38 +56,6 @@ a {
 
 h1 {
   font-size: 68px;
-}
-
-@font-face {
-    font-family: 'Barlow';
-    src: url(../assets/fonts/Barlow-Bold.ttf);
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Barlow';
-    src: url(../assets/fonts/Barlow-SemiBoldItalic.ttf);
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Barlow';
-    src: url(../assets/fonts/Barlow-Medium.ttf);
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Barlow';
-    src: url(../assets/fonts/Barlow-Regular.ttf);
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
 }
 
 h1, h2, h3 {
