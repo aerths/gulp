@@ -1,0 +1,33 @@
+.block_interaction {
+    display: flex;
+    border: var(--border);
+    padding: 0px 268px;
+}
+
+.interaction {
+    display: flex;
+    flex-direction: column;
+    border: var(--border);
+    padding: 80px 80px;
+    width: 100%;
+    gap: 40px;
+}
+
+.naming {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey15);
+    border-radius: 8px;
+    width: 100%;
+    gap: 20px;
+    padding: 24px 40px;
+}

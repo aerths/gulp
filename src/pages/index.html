@@ -181,6 +181,43 @@
         </div>
     </div>
 
+    @@include('../components/_banner.html', {
+    "title": "Thank you for your Interest in SquareUp.",
+    "desc": "We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.",
+    "image": "lastpng"
+})
+
+    <div class="block_interaction">
+        <div class="interaction">
+            <div class="naming">
+                @@include('../components/_input.html', {
+                    "title": "Full name"
+                })
+                @@include('../components/_input.html', {
+                    "title": "Email"
+                })
+            </div>
+            <div class="why_a_y_contacting">
+                @@include('../components/_radiobtn.html', {
+                    "title": "Why are you contacting us?",
+                    "desc": "Wed Design"
+                })
+                @@include('../components/_radiobtn.html', {
+                    "title": "",
+                    "desc": "Mobile App Design"
+                })
+                @@include('../components/_radiobtn.html', {
+                    "title": "",
+                    "desc": "Collaboration"
+                })
+                @@include('../components/_radiobtn.html', {
+                    "title": "",
+                    "desc": "Others"
+                })
+            </div>
+        </div>    
+    </div>
+
 </main>
 
 </body>
